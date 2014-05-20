@@ -12,9 +12,3 @@
   'showOnStartup': false
 'tabLength': 2
 'preferredLineLength': 80
-'exception-reporting':
-  'userId': 'd8bd561a-c69e-dd1e-14d6-edfcfd130af3'
-'release-notes':
-  'viewedVersion': '0.95.0'
-'metrics':
-  'userId': '461f568412c5fe1a29e9c90a988be961e5f485f2'
