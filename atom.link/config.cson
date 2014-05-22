@@ -4,6 +4,8 @@
   'softWrap': true
   'softWrapAtPreferredLineLength': true
   'showInvisibles': {}
+  'excludeVcsIgnoredPaths': false
+  'destroyEmptyPanes': false
 'core':
   'themes': [
     'atom-dark-ui'
