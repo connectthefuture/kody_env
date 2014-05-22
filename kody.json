@@ -1,12 +1,12 @@
 {
-  "set_up_git_config": true,
-  "set_osx_defaults": true,
-  "install_dot_files": true,
+  "set_up_git_config":false,
+  "set_osx_defaults": false,
+  "install_dot_files": false,
   "install_brew_cask_and_casks": true,
-  "install_homebrew_and_packages": true,
-  "install_apm_packages": true,
-  "install_npm_modules": true,
-  "set_fish_shell_as_default": true,
+  "install_homebrew_and_packages": false,
+  "install_apm_packages": false,
+  "install_npm_modules": false,
+  "set_fish_shell_as_default": false,
   "brew_installs": [
     "git",
     "mongodb",
@@ -24,8 +24,17 @@
   ],
   "brew_casks": [
     "google-chrome",
+    "google-drive",
+    "quickcast",
+    "the-unarchiver",
+    "google-hangouts",
     "heroku-toolbelt",
-    "spotify"
+    "spotify",
+    "atom",
+    "alfred",
+    "flux",
+    "skype",
+    "sublime-text"
   ],
   "global_npm_modules": {
     "sike": "latest",
@@ -40,3 +49,4 @@
     "bower": "latest"
   }
 }
+
