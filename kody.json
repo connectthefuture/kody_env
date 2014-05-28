@@ -12,7 +12,8 @@
     "mongodb",
     "ruby-build",
     "rbenv",
-    "fish"
+    "fish",
+    "phantomjs"
   ],
   "apm_packages": [
     "linter",
@@ -46,7 +47,7 @@
     "docpad": "latest",
     "component": "latest",
     "coffee-script": "latest",
-    "bower": "latest"
+    "bower": "latest",
+    "mocha-phantomjs": "latest"
   }
 }
-
