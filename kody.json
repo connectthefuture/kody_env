@@ -18,13 +18,19 @@
   "apm_packages": [
     "linter",
     "linter-jshint",
+    "linter-scss-lint",
+    "linter-coffeelint",
+    "bracket-matcher",
     "css-color-highlighting",
     "atom-monokai-dark",
     "tabs-to-spaces",
-    "language-jade"
+    "language-jade",
+    "autocomplete-plus"
   ],
   "brew_casks": [
     "google-chrome",
+    "firefox",
+    "android-file-transfer",
     "google-drive",
     "quickcast",
     "the-unarchiver",
@@ -34,8 +40,7 @@
     "atom",
     "alfred",
     "flux",
-    "skype",
-    "sublime-text"
+    "skype"
   ],
   "global_npm_modules": {
     "sike": "latest",

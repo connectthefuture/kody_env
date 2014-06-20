@@ -1,11 +1,11 @@
 'editor':
-  'fontSize': 14
   'showIndentGuide': true
   'softWrap': true
   'softWrapAtPreferredLineLength': true
   'showInvisibles': {}
   'excludeVcsIgnoredPaths': false
   'destroyEmptyPanes': false
+  'fontSize': 12
 'core':
   'themes': [
     'atom-dark-ui'
