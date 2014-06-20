@@ -19,7 +19,6 @@
     "linter",
     "linter-jshint",
     "linter-scss-lint",
-    "linter-coffeelint",
     "bracket-matcher",
     "css-color-highlighting",
     "atom-monokai-dark",
