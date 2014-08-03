@@ -1,6 +1,5 @@
+#A call to this empty function within config.fish will load other aliases in the file.
 function git_aliases --description 'load aliases'
-  set_color red
-  echo git aliases loaded!
 end
 
 function gs --description 'git status'

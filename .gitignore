@@ -5,9 +5,11 @@ node_modules/
 **/git/gitconfig.link
 
 **/fish/fish_history
-**/fish/fishd*
+**/fish/fishd
 
-**/config.link/configstore/*
+**/fishd.*
+
+**/configstore/*
 
 **/atom.link/.atom
 **/atom.link/.gitignore
