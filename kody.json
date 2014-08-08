@@ -7,6 +7,7 @@
   "install_apm_packages": false,
   "install_npm_modules": false,
   "set_fish_shell_as_default": false,
+  "remove_default_apple_apps": true,
   "brew_installs": [
     "git",
     "mongodb",
@@ -49,5 +50,17 @@
     "coffee-script": "latest",
     "bower": "latest",
     "mocha-phantomjs": "latest"
-  }
+  },
+  "apple_apps_to_remove": [
+    "Contacts.app",
+    "Calculator.app",
+    "Messages.app",
+    "iBooks.app",
+    "iTunes.app",
+    "Facetime.app",
+    "Maps.app",
+    "Notes.app",
+    "Mail.app",
+    "Game Center.app"
+  ]
 }
