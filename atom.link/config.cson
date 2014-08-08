@@ -15,3 +15,7 @@
   'showOnStartup': false
 'tabLength': 2
 'preferredLineLength': 80
+'exception-reporting':
+  'userId': '12bde0f6-515f-7a46-5fb0-f9f5aa4a42fc'
+'metrics':
+  'userId': '42c63e993e1cb6ffba693ee6d79ef324020daf6a'
