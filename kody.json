@@ -10,8 +10,6 @@
   "brew_installs": [
     "git",
     "mongodb",
-    "ruby-build",
-    "rbenv",
     "fish",
     "phantomjs"
   ],
@@ -19,7 +17,6 @@
     "linter",
     "linter-jshint",
     "linter-scss-lint",
-    "bracket-matcher",
     "css-color-highlighting",
     "atom-monokai-dark",
     "tabs-to-spaces",
@@ -32,9 +29,7 @@
     "android-file-transfer",
     "google-drive",
     "quickcast",
-    "the-unarchiver",
     "google-hangouts",
-    "heroku-toolbelt",
     "spotify",
     "atom",
     "alfred",
