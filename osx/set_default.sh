@@ -15,6 +15,11 @@ defaults write com.apple.dock magnification -int 1
 defaults write com.apple.dock orientation -string right
 defaults write com.apple.dock tilesize -int 16
 
+#Disable Dashboard
+defaults write com.apple.dashboard mcx-disabled -boolean YES
+
+#Disable Notification Center
+launchctl unload -w /System/Library/LaunchAgents/com.apple.notificationcenterui.plist
 
 # Set a really fast key repeat.
 defaults write NSGlobalDomain KeyRepeat -int 0
