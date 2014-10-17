@@ -41,3 +41,17 @@ end
 function gba --description 'check for available branches'
   git branch -av
 end
+
+function gsu --description 'set up a git repo with a first commit'
+  touch README.md
+  git init
+  git add README.md
+  git commit -m "first commit"
+  git remote add origin https://github.com/jh3y/$argv
+  git push -u origin master
+end
+
+function gfp --description 'first push of new repo after working on files and committing'
+  git remote add origin https://github.com/jh3y/$argv
+  git push -u origin master
+end
