@@ -36,7 +36,8 @@
     "alfred",
     "flux",
     "skype",
-    "steam"
+    "steam",
+    "hipchat"
   ],
   "global_npm_modules": {
     "sike": "latest",
