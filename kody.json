@@ -39,15 +39,10 @@
     "google-drive",
     "google-hangouts",
     "skype",
-<<<<<<< HEAD
     "spotify",
     "steam",
     "quickcast",
     "the-unarchiver"
-=======
-    "steam",
-    "hipchat"
->>>>>>> 228bd94b88708ac1892a8694b4f3eb1923dafaec
   ],
   "global_npm_modules": {
     "bower": "latest",
