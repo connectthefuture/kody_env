@@ -15,7 +15,7 @@
     "phantomjs"
   ],
   "apm_packages": [
-    "atom-color-highlight"
+    "atom-color-highlight",
     "linter",
     "linter-jshint",
     "lorem-ipsum",
