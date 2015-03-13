@@ -1,13 +1,13 @@
 {
-  "set_up_git_config":true,
+  "set_up_git_config":false,
   "set_osx_defaults": true,
-  "install_dot_files": true,
-  "install_brew_cask_and_casks": true,
-  "install_homebrew_and_packages": true,
-  "install_apm_packages": true,
-  "install_npm_modules": true,
-  "set_fish_shell_as_default": true,
-  "remove_default_apple_apps": true,
+  "install_dot_files": false,
+  "install_brew_cask_and_casks": false,
+  "install_homebrew_and_packages": false,
+  "install_apm_packages": false,
+  "install_npm_modules": false,
+  "set_fish_shell_as_default": false,
+  "remove_default_apple_apps": false,
   "brew_installs": [
     "git",
     "fish",
@@ -39,10 +39,15 @@
     "google-drive",
     "google-hangouts",
     "skype",
+<<<<<<< HEAD
     "spotify",
     "steam",
     "quickcast",
     "the-unarchiver"
+=======
+    "steam",
+    "hipchat"
+>>>>>>> 228bd94b88708ac1892a8694b4f3eb1923dafaec
   ],
   "global_npm_modules": {
     "bower": "latest",
