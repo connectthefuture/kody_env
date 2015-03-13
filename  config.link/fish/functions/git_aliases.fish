@@ -43,6 +43,8 @@ function gba --description 'check for available branches'
 end
 
 function gsu --description 'set up a git repo with a first commit'
+  mkdir $argv
+  cd $argv
   touch README.md
   git init
   git add README.md

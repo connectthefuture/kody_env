@@ -10,46 +10,51 @@
   "remove_default_apple_apps": true,
   "brew_installs": [
     "git",
-    "mongodb",
     "fish",
+    "mongodb",
     "phantomjs"
   ],
   "apm_packages": [
+    "atom-color-highlight"
     "linter",
     "linter-jshint",
-    "linter-scss-lint",
+    "lorem-ipsum",
     "css-color-highlighting",
     "atom-monokai-dark",
     "tabs-to-spaces",
     "language-jade",
-    "autocomplete-plus"
+    "autocomplete-plus",
+    "trailing-spaces"
   ],
   "brew_casks": [
-    "google-chrome",
-    "firefox",
     "android-file-transfer",
-    "google-drive",
-    "quickcast",
-    "google-hangouts",
-    "spotify",
-    "atom",
     "alfred",
+    "atom",
+    "dropbox",
+    "firefox",
     "flux",
+    "hipchat",
+    "gimp",
+    "google-chrome",
+    "google-drive",
+    "google-hangouts",
     "skype",
-    "steam"
+    "spotify",
+    "steam",
+    "quickcast",
+    "the-unarchiver"
   ],
   "global_npm_modules": {
-    "sike": "latest",
-    "less": "latest",
-    "jade": "latest",
-    "gulp": "latest",
-    "grunt-cli": "latest",
-    "express-generator": "latest",
-    "docpad": "latest",
-    "component": "latest",
-    "coffee-script": "latest",
     "bower": "latest",
-    "mocha-phantomjs": "latest"
+    "coffee-script": "latest",
+    "express-generator": "latest",
+    "grunt-cli": "latest",
+    "gulp": "latest",
+    "jade": "latest",
+    "less": "latest",
+    "phantomjs": "latest",
+    "mocha-phantomjs": "latest",
+    "sike": "latest"
   },
   "apple_apps_to_remove": [
     "Contacts.app",

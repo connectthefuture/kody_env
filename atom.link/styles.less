@@ -11,11 +11,27 @@
 .tree-view {
 
 }
-
-.editor {
-  
+@color: #FFF;
+.editor,
+atom-text-editor::shadow {
+  .indent-guide {
+    opacity: .4;
+    color: @color;
+  }
+  .invisible-character {
+    opacity: .4;
+    color: @color;
+  }
 }
 
-.editor .cursor {
+.editor .cursor {}
 
+.editor .selection .region,
+atom-text-editor::shadow .selection .region {
+  background-color: rgba(255, 0, 0, .3);
+}
+
+.editor.is-focused  .selection .region,
+atom-text-editor.is-focused::shadow  .selection .region {
+  background-color: rgba(255, 0, 0, .3);
 }

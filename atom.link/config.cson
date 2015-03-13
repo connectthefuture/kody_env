@@ -1,22 +1,21 @@
-'global':
-  'editor':
-    'showIndentGuide': true
-    'softWrap': true
-    'softWrapAtPreferredLineLength': true
-    'excludeVcsIgnoredPaths': false
-    'destroyEmptyPanes': false
-    'fontSize': 13
-    'invisibles': {}
-  'core':
-    'themes': [
-      'atom-dark-ui'
-      'atom-monokai-dark'
+"*":
+  editor:
+    showIndentGuide: true
+    softWrap: true
+    softWrapAtPreferredLineLength: true
+    excludeVcsIgnoredPaths: false
+    destroyEmptyPanes: false
+    invisibles: {}
+    showInvisibles: true
+    autoIndentOnPaste: false
+    fontSize: 13
+  core:
+    themes: [
+      "atom-dark-ui"
+      "base16-tomorrow-dark-theme"
     ]
-  'welcome':
-    'showOnStartup': false
-  'tabLength': 2
-  'preferredLineLength': 80
-  'exception-reporting':
-    'userId': 'f2e30a3e-4b8e-ef85-f976-45956ea49af3'
-  'metrics':
-    'userId': '0030cb7d9fd26b9b3d02d77e22742c6f60f05a22'
+  welcome:
+    showOnStartup: false
+  tabLength: 2
+  preferredLineLength: 80
+  linter: {}
