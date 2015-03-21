@@ -42,6 +42,10 @@ function gba --description 'check for available branches'
   git branch -av
 end
 
+function gdb --description 'remove branch both locally and remotely'
+  git branch -d $argv
+  git push origin :$argv
+
 function gsu --description 'set up a git repo with a first commit'
   mkdir $argv
   cd $argv
