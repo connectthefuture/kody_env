@@ -1,10 +1,10 @@
 {
-  "set_up_git_config":true,
+  "set_up_git_config":false,
   "set_osx_defaults": false,
-  "install_dot_files": false,
+  "install_dot_files": true,
   "install_brew_cask_and_casks": false,
   "install_homebrew_and_packages": false,
-  "install_apm_packages": false,
+  "install_apm_packages": true,
   "install_npm_modules": false,
   "set_fish_shell_as_default": false,
   "remove_default_apple_apps": false,
