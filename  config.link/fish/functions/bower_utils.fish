@@ -7,5 +7,5 @@ function bower_firewall_on --description 'make bower usable behind firewall'
 end
 
 function bower_firewall_off --description 'turn off bower firewall settings'
-  git config --global url."https://".insteadOf https://
+  git config --global --remove-section url."https://"
 end
