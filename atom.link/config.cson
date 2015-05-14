@@ -1,20 +1,26 @@
-editor:
-  showIndentGuide: true
-  softWrap: true
-  softWrapAtPreferredLineLength: true
-  excludeVcsIgnoredPaths: false
-  destroyEmptyPanes: false
-  invisibles: {}
-  showInvisibles: true
-  autoIndentOnPaste: false
-  fontSize: 13
-core:
-  themes: [
-    "atom-dark-ui"
-    "base16-tomorrow-dark-theme"
-  ]
-welcome:
-  showOnStartup: false
-tabLength: 2
-preferredLineLength: 80
-linter: {}
+"*":
+  editor:
+    showIndentGuide: true
+    softWrap: true
+    softWrapAtPreferredLineLength: true
+    excludeVcsIgnoredPaths: false
+    destroyEmptyPanes: false
+    invisibles: {}
+    showInvisibles: true
+    autoIndentOnPaste: false
+    fontSize: 12
+  core:
+    themes: [
+      "atom-dark-ui"
+      "base16-tomorrow-dark-theme"
+    ]
+  welcome:
+    showOnStartup: false
+  tabLength: 2
+  preferredLineLength: 80
+  whitespace:
+    ensureSingleTrailingNewline: true
+  linter:
+    ignoredLinterErrors: [
+      "jshint"
+    ]

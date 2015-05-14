@@ -6,3 +6,7 @@
 #status --is-interactive; and . (rbenv init -|psub)
 
 git_aliases
+
+bower_utils
+
+project_utils
