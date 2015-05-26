@@ -1,8 +1,8 @@
 kody_env
 ========
 
-my kody environment folder for my personal .files
+my kody environment folder for my personal .files.
 
-feel free to set up your own based off of mine!
+Check out [kody](https://github.com/jh3y/kody).
 
 @jh3y
