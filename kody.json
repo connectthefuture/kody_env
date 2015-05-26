@@ -23,7 +23,8 @@
     "tabs-to-spaces",
     "language-jade",
     "autocomplete-plus",
-    "trailing-spaces"
+    "trailing-spaces",
+    "editorconfig"
   ],
   "brew_casks": [
     "android-file-transfer",

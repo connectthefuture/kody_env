@@ -5,7 +5,8 @@
     softWrapAtPreferredLineLength: true
     excludeVcsIgnoredPaths: false
     destroyEmptyPanes: false
-    invisibles: {}
+    invisibles:
+      {}
     showInvisibles: true
     autoIndentOnPaste: false
     fontSize: 12
