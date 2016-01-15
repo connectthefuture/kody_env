@@ -19,3 +19,4 @@ node_modules/
 **/atom.link/compile-cache/*
 **/atom.link/storage/*
 **/atom.link/themes/*
+**/atom.link/.apm/

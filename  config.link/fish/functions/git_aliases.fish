@@ -6,6 +6,10 @@ function gs --description 'git status'
   git status
 end
 
+function gau --description 'add upstream to repo'
+  git remote add upstream https://github.com/$argv
+end
+
 function gaa --description 'add all untracked files'
   git add --all
 end

@@ -1,7 +1,7 @@
 {
   "set_up_git_config":false,
   "set_osx_defaults": false,
-  "install_dot_files": false,
+  "install_dot_files": true,
   "install_brew_cask_and_casks": false,
   "install_homebrew_and_packages": false,
   "install_apm_packages": true,
@@ -10,19 +10,15 @@
   "remove_default_apple_apps": false,
   "brew_installs": [
     "git",
-    "fish",
-    "mongodb",
-    "phantomjs"
+    "fish"
   ],
   "apm_packages": [
-    "atom-color-highlight",
+    "webbox-color",
     "linter",
     "linter-jshint",
-    "lorem-ipsum",
     "atom-monokai-dark",
     "tabs-to-spaces",
     "language-jade",
-    "autocomplete-plus",
     "trailing-spaces",
     "editorconfig"
   ],
@@ -37,19 +33,14 @@
     "skype",
     "spotify",
     "steam",
-    "quickcast",
     "the-unarchiver"
   ],
   "global_npm_modules": {
     "bower": "latest",
     "coffee-script": "latest",
-    "express-generator": "latest",
-    "grunt-cli": "latest",
     "gulp": "latest",
     "jade": "latest",
     "less": "latest",
-    "phantomjs": "latest",
-    "mocha-phantomjs": "latest",
     "sike": "latest"
   },
   "apple_apps_to_remove": [
