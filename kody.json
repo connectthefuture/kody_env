@@ -1,28 +1,30 @@
 {
-  "set_up_git_config":false,
-  "set_osx_defaults": false,
-  "install_dot_files": true,
-  "install_brew_cask_and_casks": false,
-  "install_homebrew_and_packages": false,
-  "install_apm_packages": true,
-  "install_npm_modules": false,
-  "set_fish_shell_as_default": false,
-  "remove_default_apple_apps": false,
-  "brew_installs": [
+  "gitCredentials": {
+    "name": "jh3y",
+    "email": "jh3y@users.noreply.github.com"
+  },
+  "brewInstalls": [
     "git",
-    "fish"
+    "fish",
+    "elasticsearch",
+    "mongodb"
   ],
-  "apm_packages": [
-    "webbox-color",
+  "apmPackages": [
+    "color-picker",
     "linter",
     "linter-jshint",
     "atom-monokai-dark",
     "tabs-to-spaces",
     "language-jade",
     "trailing-spaces",
-    "editorconfig"
+    "editorconfig",
+    "file-icons",
+    "stylus",
+    "todo-show",
+    "autocomplete-plus",
+    "pigments"
   ],
-  "brew_casks": [
+  "brewCasks": [
     "android-file-transfer",
     "atom",
     "firefox",
@@ -30,20 +32,23 @@
     "google-chrome",
     "google-drive",
     "google-hangouts",
+    "slack",
     "skype",
     "spotify",
     "steam",
     "the-unarchiver"
   ],
-  "global_npm_modules": {
-    "bower": "latest",
-    "coffee-script": "latest",
-    "gulp": "latest",
-    "jade": "latest",
-    "less": "latest",
-    "sike": "latest"
-  },
-  "apple_apps_to_remove": [
+  "fishDefaultScriptPath": "fish/set_default.sh",
+  "osxDefaultScriptPath": "osx/set_default.sh",
+  "globalNpmModules": [
+    "bower",
+    "coffee-script",
+    "gulp",
+    "jade",
+    "less",
+    "sike"
+  ],
+  "osxAppsToRemove": [
     "Contacts.app",
     "Calculator.app",
     "Messages.app",

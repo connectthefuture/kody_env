@@ -10,6 +10,14 @@ function gau --description 'add upstream to repo'
   git remote add upstream https://github.com/$argv
 end
 
+function gfu --description 'fetch upstream'
+  git fetch upstream
+end
+
+function grb --description 'rebase'
+  git rebase -i HEAD~$argv
+end
+
 function gaa --description 'add all untracked files'
   git add --all
 end
