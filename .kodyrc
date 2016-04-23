@@ -47,6 +47,7 @@
   "osxDefaultScriptPath": "osx/set_default.sh",
   "globalNpmModules": [
     "bower",
+    "caniuse",
     "coffee-script",
     "gulp",
     "jade",
