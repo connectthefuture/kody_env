@@ -1,5 +1,6 @@
 {
   "order": [
+    "gitconfig.js",
     "homebrew.js",
     "brewCask.js",
     "*"

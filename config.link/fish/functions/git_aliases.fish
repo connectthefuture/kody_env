@@ -18,6 +18,10 @@ function grb --description 'rebase'
   git rebase -i HEAD~$argv
 end
 
+function gpr --description 'pull and rebase upstream given branch'
+  git pull --rebase upstream $argv
+end
+
 function gaa --description 'add all untracked files'
   git add --all
 end
