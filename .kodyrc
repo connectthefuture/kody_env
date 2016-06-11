@@ -12,6 +12,7 @@
   "brewInstalls": [
     "git",
     "fish",
+    "node",
     "elasticsearch",
     "mongodb"
   ],
@@ -44,6 +45,7 @@
     "steam",
     "skitch",
     "the-unarchiver",
+    "tunnelblick",
     "wacom-tablet",
     "xquartz",
     "inkscape"
@@ -57,6 +59,7 @@
     "gulp",
     "jade",
     "less",
+    "russ",
     "sike"
   ],
   "osxAppsToRemove": [
