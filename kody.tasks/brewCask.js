@@ -13,7 +13,7 @@ const options = {
       shell.exec('brew prune');
       shell.exec('brew tap caskroom/cask');
       shell.exec('brew install brew-cask');
-      for (const cask of casks)
+      for (var cask of casks)
         shell.exec(`brew cask install ${cask}`);
       log.success('casks installed');
     } else
