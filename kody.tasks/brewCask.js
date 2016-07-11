@@ -10,9 +10,7 @@ const options = {
     const brewInstalled = shell.which('brew') !== null,
       casks = config.brewCasks;
     if (brewInstalled && casks.length > 0) {
-      shell.exec('brew prune');
       shell.exec('brew tap caskroom/cask');
-      shell.exec('brew install brew-cask');
       for (var cask of casks)
         shell.exec(`brew cask install ${cask}`);
       log.success('casks installed');
