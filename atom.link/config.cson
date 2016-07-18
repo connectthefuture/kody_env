@@ -24,6 +24,8 @@
     ]
   preferredLineLength: 80
   tabLength: 2
+  "tree-view":
+    hideVcsIgnoredFiles: true
   welcome:
     showOnStartup: false
   whitespace:
