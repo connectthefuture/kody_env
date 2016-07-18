@@ -55,11 +55,8 @@
   "globalNpmModules": [
     "bower",
     "caniuse",
-    "coffee-script",
-    "gifi",
     "gulp",
-    "jade",
-    "less",
+    "pug-cli",
     "russ",
     "sike"
   ],
