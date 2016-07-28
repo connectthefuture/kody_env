@@ -78,3 +78,15 @@ function gfp --description 'first push of new repo after working on files and co
   git remote add origin https://github.com/jh3y/$argv
   git push -u origin master
 end
+
+function gas --description 'apply stash @'
+  git stash apply stash@\{$argv\}
+end
+
+function gsl --description 'show stashes'
+  git stash list
+end
+
+function gsc --description 'clear stashes'
+  git stash clear
+end
