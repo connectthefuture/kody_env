@@ -54,7 +54,7 @@
   "osxDefaultScriptPath": "osx/set_default.sh",
   "globalNpmModules": [
     "bower",
-    "caniuse",
+    "caniuse-cmd",
     "gulp",
     "pug-cli",
     "russ",
