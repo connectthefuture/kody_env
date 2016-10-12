@@ -48,6 +48,7 @@
     "spotify",
     "steam",
     "skitch",
+    "opera",
     "the-unarchiver",
     "tunnelblick",
     "wacom-tablet",
@@ -62,7 +63,8 @@
     "gulp",
     "pug-cli",
     "russ",
-    "sike"
+    "sike",
+    "yarn"
   ],
   "osxAppsToRemove": [
     "Contacts.app",
