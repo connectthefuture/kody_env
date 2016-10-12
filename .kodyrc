@@ -38,6 +38,7 @@
   "brewCasks": [
     "android-file-transfer",
     "atom",
+    "audacity",
     "firefox",
     "flux",
     "google-chrome",
