@@ -38,6 +38,7 @@
   "brewCasks": [
     "android-file-transfer",
     "atom",
+    "audacity",
     "firefox",
     "flux",
     "google-chrome",
@@ -48,6 +49,7 @@
     "spotify",
     "steam",
     "skitch",
+    "opera",
     "the-unarchiver",
     "tunnelblick",
     "wacom-tablet",
@@ -58,11 +60,12 @@
   "osxDefaultScriptPath": "osx/set_default.sh",
   "globalNpmModules": [
     "bower",
-    "caniuse",
+    "caniuse-cmd",
     "gulp",
     "pug-cli",
     "russ",
-    "sike"
+    "sike",
+    "yarn"
   ],
   "osxAppsToRemove": [
     "Contacts.app",
