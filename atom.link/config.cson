@@ -4,6 +4,7 @@
       "linter-jshint"
       "linter-eslint"
     ]
+    telemetryConsent: "no"
     themes: [
       "atom-dark-ui"
       "base16-tomorrow-dark-theme"

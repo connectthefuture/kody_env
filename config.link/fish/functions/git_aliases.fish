@@ -90,3 +90,7 @@ end
 function gsc --description 'clear stashes'
   git stash clear
 end
+
+function yolo --description 'force push'
+  git push --force
+end
